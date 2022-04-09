@@ -4,7 +4,7 @@ body {
   width: 100%;
 } */
 
-#mainTitle {
+h1 {
     font-size: 9rem;
     text-align: center;
     /* margin-top: 10%; */
@@ -12,17 +12,8 @@ body {
     color:#fff;
     letter-spacing: 1.1rem;
     font-family: 'Playfair Display', serif;
+    transition: 1750ms ease-in-out;
 }
-
-/* h2 {
-    font-size: 9rem;
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    color:#fff;
-    letter-spacing: 1.1rem;
-    font-family: 'Playfair Display', serif;
-} */
 
 .container {
     display: grid;
@@ -232,4 +223,15 @@ button {
 
 button:last-child {
     margin-bottom: 0;
+}
+
+#home{
+    position:absolute;
+    top:1em;
+    left:1em;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    text-shadow: 0em 0.3em 0.15em rgba(0, 0, 0, 0.5);
 }
