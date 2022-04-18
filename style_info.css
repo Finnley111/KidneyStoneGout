@@ -182,6 +182,10 @@ p,h3 {
     color: #000000;
 }
 
+p,ul,ol,li {
+    font-size: 1.5rem;
+}
+
 h1 {
     font-size: 9rem;
     text-align: center;
@@ -241,4 +245,33 @@ button:last-child {
 
 #homeBot {
     margin: 2rem;
+}
+
+.shrink {
+    width: 50%;
+}
+
+img {
+    transition: 1000ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#two {
+    width: 125%;
+    transition: 1000ms ease-in-out;
+}
+
+#two:hover {
+    transform: scale(1.05);
+}
+
+#three {
+    width: 50%;
+}
+
+#four {
+    width: 40%;
 }
