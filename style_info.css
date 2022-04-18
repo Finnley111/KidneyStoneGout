@@ -273,5 +273,9 @@ img:hover {
 }
 
 #four {
-    width: 40%;
+    width: 70%;
+}
+
+.fig {
+    font-size: 1rem;
 }
